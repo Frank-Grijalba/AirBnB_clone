@@ -1,5 +1,5 @@
-<p align="right">
-  <img height="200" src="./images/logo.png"/>
+<p align="left">
+  <img height="70" src="./images/logo.png"/>
 </p>
 
 # 0x01. AirBnB clone - Web static
