@@ -21,7 +21,7 @@ button{
 .locations{
     border-right: #DDDDDD solid;
 }
-.locations, .amenities{
+.locations, .Amenities{
     height: 100%;
     width: 25%;
     float: left;
@@ -66,6 +66,6 @@ ul{
 .locations:hover > .popover{
     visibility: visible;
 }
-.amenities:hover > .popover{
+.Amenities:hover > .popover{
     visibility: visible;
 }
