@@ -2,15 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: top;
     padding: 0 20px;
     vertical-align: middle;
 }
 .places h1 {
     width: 100%;
-    text-align: 50px;
     font-size: 30px;
-    margin: 24;
     padding-top: 20px;
 }
 .places h2 {

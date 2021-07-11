@@ -2,15 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: top;
     padding: 0 20px;
     vertical-align: middle;
 }
 .places h1 {
     width: 100%;
-    text-align: 50px;
     font-size: 30px;
-    margin: 24;
     padding-top: 20px;
 }
 .places h2 {
@@ -89,14 +86,103 @@
 }
 
 .amenities{
-    display: flex;
     margin-top: 40px;
-    background-color: magenta;
-   
-    
+    /* background-color: magenta; */
 }
 .amenities h2 {
     font-size: 16px;
     border-bottom: 1px solid #dddddd;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.amenities ul {
+    margin-top: 12px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
     
+}
+.amenities ul li {
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.amenities h4{
+    font-size: 12px;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+.div_tv{
+    background: url("../images/icon_tv.png") left;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.div_wifi{
+    background: url("../images/icon_wifi.png") left;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.div_pets{
+    background: url("../images/icon_pets.png") left;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.div_food{
+    background: url("../images/icon_food.png") left;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.reviews{
+    margin-top: 40px;
+    /* background-color: magenta; */
+}
+
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.reviews h3{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.reviews ul{
+    margin: 0;
+    padding: 0;
+}
+.reviews ul li {
+    /* line-height: 10px; */
+    margin-top: 20px;
+    padding: 0;
+    vertical-align: middle;
+}
+.reviews p{
+    margin: 0;
+    padding-top:  5px;
+    text-align: justify;
 }
